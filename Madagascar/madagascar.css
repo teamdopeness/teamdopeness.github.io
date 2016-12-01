@@ -1,0 +1,248 @@
+body {
+	background-image: background.jpg;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+  display:block;
+  color: rgba(49, 142, 220,.4);
+  padding: 10;
+	margin-bottom: 50;
+	overflow: hidden;
+	text-align: center;
+  font-size: 80px;
+	font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
+}
+
+div.img {
+  padding:inherit;
+
+}
+
+div.mortimg {
+  position: fixed;
+  right: 280px;
+  bottom: 30px;
+}
+div.mortimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+.mortimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.kingimg {
+  position: fixed;
+  right: 710px;
+  bottom: 100px;
+}
+div.kingimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.kingimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.girimg {
+  position: fixed;
+  right: 1155px;
+  bottom: 60px;
+}
+div.girimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 50%;
+}
+.girimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.aleximg {
+  position: fixed;
+  right: 30px;
+  bottom: 124px;
+}
+div.aleximg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -400px;
+}
+.aleximg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.penimg {
+  position: fixed;
+  right: 900px;
+  bottom: -17px;
+}
+div.penimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -200px;
+}
+.penimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.martyimg {
+  position: fixed;
+  right: 400px;
+  bottom: 120px;
+}
+div.martyimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.martyimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.birdimg {
+  position: fixed;
+  right: 900px;
+  top: 120px;
+}
+
+div.birdsimg {
+  position: fixed;
+  right: 800px;
+  top: 8px;
+}
+div.birdsimg .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.birdsimg:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.bird2img {
+  position: fixed;
+  right: 870px;
+  top: 500px;
+}
+
+div.sunimg {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  opacity: 1;
+}
+
+div.sun2img {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  opacity: .7;
+}
+div.sun2img .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 105%;
+}
+.sun2img:hover .tooltiptext {
+    visibility: visible;
+}
