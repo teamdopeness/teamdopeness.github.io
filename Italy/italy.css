@@ -1,0 +1,53 @@
+body {
+	background-image: Italy background.jpg;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+
+h1 {
+  display:block;
+  color: whitesmoke;
+  padding: 10;
+	margin-bottom: 50;
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
+}
+
+div.img {
+  float:none;
+  padding:inherit;
+  position: fixed;
+}
+
+div.img1 {
+  float:none;
+  padding:inherit;
+  position: fixed;
+}
+
+div.img2 {
+  float:none;
+  padding:inherit;
+  position: fixed;
+}
+
+div.img3 {
+  float:none;
+  padding:inherit;
+  position: fixed;
+}
+div.mortimg {
+  position: fixed;
+  right: 710px;
+  bottom: 85px;
+}
+
+div.kingimg {
+  position: fixed;
+  right: 710px;
+  bottom: 85px;
+}
