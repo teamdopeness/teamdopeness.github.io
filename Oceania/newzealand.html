@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> NewZealandGallery </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='./css/galleryStyle.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='./js/intense.js'></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    	<header>
+    		<div class="logo">New Zealand</div>
+			
+			<div class = "nav">
+				<ul>
+					<li> <a href = "countryIndex.html"> Oceania </a></li>
+				</ul>
+			</div>
+			
+			
+    		<div class="main">
+    			<h1> One does not simply walk into Mordor...</h1>
+				<h2> Enjoy Middle Earth! </h2>
+    		</div>
+    	</header>
+    	<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image firstNZ" data-image="./img/IMG_3790.JPG" data-title="Roy's Peak, Wanaka, NZ" data-caption="A very rough incline, but worth it for the viewz"></div>
+			<div class="demo-image secondNZ"  data-image="./img/IMG_3598.JPG" data-title="Castlepoint, NZ" data-caption="A beautiful view after hiking up to a lighthouse."></div>
+			<div class="demo-image thirdNZ"  data-image="./img/IMG_3905.JPG" data-title="Milford Sound, NZ" data-caption="One of the most astonishing places I have ever been."></div>
+			<div class="demo-image fourthNZ"  data-image="./img/IMG_3727.JPG" data-title="Fiordland National Park, NZ" data-caption="Immersing myself in the ice cold water was amazing after a gnar hike."></div>
+			<div class="demo-image fifthNZ"  data-image="./img/IMG_3850.JPG" data-title="Fiordland, NZ" data-caption="Road trips are the best for adventures."></div>
+			<div class="demo-image sixthNZ"  data-image="./img/IMG_3943.JPG" data-title="Castlepoint Beach, NZ" data-caption="Walking on the beach because the waves are lame."></div>
+    	</section>
+
+    	
+
+
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+		
+    </body>
+</html>

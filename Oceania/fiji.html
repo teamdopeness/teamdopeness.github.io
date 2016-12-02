@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> FijiGallery </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='./css/galleryStyle.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='./js/intense.js'></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    	<header>
+    		<div class="logo">Fiji</div>
+			
+			<div class = "nav">
+				<ul>
+					<li> <a href = "countryIndex.html"> Oceania </a></li>
+				</ul>
+			</div>
+			
+			
+    		<div class="main">
+    			<h1> Bula! Living on Fiji Time</h1>
+				<h2> Basically Paradise </h2>
+    		</div>
+    	</header>
+    	<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image firstFIJI" data-image="./img/IMG_4092.JPG" data-title="Sigatoka, Fiji" data-caption="Relaxing in the ocean and watching the sunset was perfect"></div>
+    		<div class="demo-image secondFIJI" data-image="./img/IMG_4845.JPG" data-title="South Pacific Ocean, Fiji" data-caption="I'd like to be under the sea..."></div>
+    		<div class="demo-image thirdFIJI"  data-image="./img/IMG_4197.JPG" data-title="Sigatoka, Fiji" data-caption="Crystal clear waters and sunny skies"></div>
+			<div class="demo-image fourthFIJI"  data-image="./img/IMG_4265.JPG" data-title="Sigatoka, Fiji" data-caption="Never seen starfish this color before"></div>
+    	</section>
+
+    	
+
+
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+		
+    </body>
+</html>

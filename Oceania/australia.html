@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title> AustraliaGallery </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='./css/galleryStyle.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='./js/intense.js'></script>
+
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    	<header>
+    		<div class="logo">Australia</div>
+			
+			<div class = "nav">
+				<ul>
+					<li> <a href = "countryIndex.html"> Oceania </a></li>
+				</ul>
+			</div>
+			
+			
+    		<div class="main">
+    			<h1> Welcome to the land of Oz</h1>
+				<h2> Home to the world's most dangerous animals </h2>
+    		</div>
+    	</header>
+    	<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image firstAUS" data-image="./img/IMG_5019.JPG" data-title="Norah Head Beach, NSW, AUS" data-caption="Cloudy beach days make for awesome pictures"></div>
+    		<div class="demo-image secondAUS" data-image="./img/IMG_4950.JPG" data-title="Central Coast, NSW, AUS" data-caption="Erosion is cool"></div>
+    		<div class="demo-image thirdAUS"  data-image="./img/IMG_4952.JPG" data-title="New South Wales, AUS" data-caption="Adventuring around the rocks was quite fun"></div>
+			<div class="demo-image fourthAUS"  data-image="./img/IMG_4998.JPG" data-title="Byron Bay, NSW, AUS" data-caption="A must see destination. Truely beautiful"></div>
+    	</section>
+
+    	
+
+
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+		
+    </body>
+</html>
