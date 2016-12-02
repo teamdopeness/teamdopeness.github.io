@@ -1,0 +1,200 @@
+/*
+ * intense-image-viewer
+ *
+ * MIT licensed
+ * Copyright (C) 2013 Tim Holman, http://tholman.com
+ */
+/*********************************************
+ *
+ *********************************************/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+	background: #FFA07A;
+  font-family: "Ubuntu Mono", monospace;
+  margin: 0px;
+  height: 100%;
+  width: 100%; }
+
+body {
+  padding: 20px;
+  text-align: center;
+  min-width: 700px; }
+  
+  
+ a {
+  text-decoration: none;
+  text-align: center;
+  /*color: #007edf;*/
+  text-shadow: none;
+  transition: color 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -ms-transition: text-shadow 0.5s ease;
+}
+
+a:hover, a:focus {text-decoration: underline;}
+
+ul, ol, dl {
+	text-align: center;
+  margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+	display: inline-block;
+    float: center;
+	text-align: center;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #20B2AA;
+}
+
+.logo {
+  width: 640px;
+  height: 55px;
+  color: #20B2AA;
+  	text-shadow: 2px 2px #008080; /*basic shadow*/
+	/*text-shadow: 2px 2px 8px #008080;*/ /*blur*/
+	/*text-shadow: 0 0 3px #008080;*/ /*glow*/
+  text-align: center;
+  line-height: 56px;
+  /*border-radius: 100%;*/
+  font-size: 50px;
+  letter-spacing: 5px;
+  /*text-indent: -6px;*/
+  
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+header h1, footer h1 {
+  font-weight: normal;
+  width: 604px;
+  color: #008080;
+  text-shadow: 2px 2px 8px #008080; /*blur*/
+  font-size: 24px;
+  height: 55px;
+  line-height: 55px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 20px; }
+  
+ header h2 {
+	font-weight: normal;
+  width: 604px;
+  color: #008080;
+  text-shadow: 2px 2px 8px #20B2AA; /*blur*/
+  font-size: 20px;
+  height: 55px;
+  line-height: 55px;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 20px;
+	 
+ }
+
+.demos {
+  text-align: center;
+  margin-top: 20px; }
+
+.demo-image {
+  cursor: url("../img/plus_cursor.png") 50 50, pointer;
+  cursor: -webkit-image-set(
+  url('../img/plus_cursor.png') 2x), auto;
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+  border: 3px solid #008080;
+
+  box-shadow: 0 0 5px #20B2AA;
+  -webkit-box-shadow: 0 0 5px #20B2AA;
+  -moz-box-shadow: 0 0 5px #20B2AA;
+  -o-box-shadow: 0 0 5px #20B2AA;
+  -ms-box-shadow: 0 0 5px #20B2AA;
+    background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px; }
+  
+  /*NZ photos*/
+  .demo-image.firstNZ {
+    background-image: url("../img/IMG_3790.JPG"); }
+  .demo-image.secondNZ {
+    background-image: url("../img/IMG_3598.JPG"); }
+  .demo-image.thirdNZ {
+    background-image: url("../img/IMG_3905.JPG"); }
+	.demo-image.fourthNZ {
+	background-image: url("../img/IMG_3727.JPG"); }
+	.demo-image.fifthNZ {
+	background-image: url("../img/IMG_3850.JPG"); }
+	.demo-image.sixthNZ {
+	background-image: url("../img/IMG_3943.JPG"); }
+	
+	/*Australia photos*/
+	.demo-image.firstAUS {
+    background-image: url("../img/IMG_5019.JPG"); }
+  .demo-image.secondAUS {
+    background-image: url("../img/IMG_4950.JPG"); }
+  .demo-image.thirdAUS {
+    background-image: url("../img/IMG_4952.JPG"); }
+	.demo-image.fourthAUS {
+	background-image: url("../img/IMG_4998.JPG"); }
+	
+	/*Fiji photos*/
+	.demo-image.firstFIJI {
+    background-image: url("../img/IMG_4092.JPG"); }
+  .demo-image.secondFIJI {
+    background-image: url("../img/IMG_4845.JPG"); }
+  .demo-image.thirdFIJI {
+    background-image: url("../img/IMG_4197.JPG"); }
+	.demo-image.fourthFIJI {
+	background-image: url("../img/IMG_4265.JPG"); }
+	
+
+footer h1 {
+  padding-left: 20px;
+  color: #008080;
+  text-shadow: 2px 2px 8px #008080; /*blur*/
+  font-size: 16px; }
+  footer h1 a {
+    color: #222222; }
+
+iframe {
+  margin-bottom: -5px;
+  margin-left: 2px; }
+  
+
+  
+
+
+
