@@ -121,7 +121,7 @@ a {
 }
 @media (min-width: 961px) {
   .c-hero-flex__item {
-    height: 30%;
+    height: 100%;
   }
 }
 .c-hero-flex__item:hover {
