@@ -63,8 +63,9 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.1em;
-	position: relative;
-	top: -190px;
+	position: inherit;
+	top: -85px;
+	right: -1270px;
 }
 
 .btn-draw {
