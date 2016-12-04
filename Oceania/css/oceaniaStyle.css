@@ -82,6 +82,8 @@ a {
   color: #e4e4e2;
   background-color: #324577;
   transition-delay: 06s;
+  text-decoration: none;
+
 }
 
 @font-face {
