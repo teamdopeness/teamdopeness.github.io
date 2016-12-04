@@ -115,7 +115,7 @@ a {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 1);
   transition: .2s all;
   cursor: pointer;
 }
@@ -138,6 +138,7 @@ a {
   background: #222 url(file:///Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/img/jpg/6.jpg) repeat center center;
 }
 .c-hero-flex__title {
+	font-size: larger;
   text-transform: uppercase;
   letter-spacing: .075em;
   color: #fff;
