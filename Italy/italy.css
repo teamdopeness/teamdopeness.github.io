@@ -92,7 +92,7 @@ a {
   position: relative;
   display: block;
   padding: 0.5em;
-  color: inherit;
+  color: whitesmoke;
 }
 .btn-draw > span:before, .btn-draw > span:after {
   content: '';
