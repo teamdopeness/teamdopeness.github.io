@@ -106,9 +106,11 @@ a {
 
 .c-hero-flex {
   display: flex;
+  position:relative;
+  top: 110px;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 50vh;
   width: 100vw;
 }
 @media (max-width: 960px) {
