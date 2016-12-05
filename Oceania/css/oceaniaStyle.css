@@ -173,3 +173,18 @@ a:active {
     text-decoration: none;
 }
 
+h1 {
+  color:  rgba(33, 121, 255, .7);
+  position: relative;
+  right: 10px;
+  left: 1100px;
+  bottom: -110px;
+  font-size: 80px;
+  font-family: cursive;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+
+}
+
+
