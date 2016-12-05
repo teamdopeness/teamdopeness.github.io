@@ -142,10 +142,10 @@ a {
   box-shadow: inset 0 0 0 100vmax rgba(71, 202, 255, 0.3);
 }
 .c-hero-flex__item:nth-child(1) {
-  background: #222 url("http://oceanleadership.org/wp-content/uploads/2010/09/coral-bleaching.jpg") repeat center center;
+  background: #222 url("http://oceanleadership.org/wp-content/uploads/2010/09/coral-bleaching.jpg") no-repeat center center;
 }
 .c-hero-flex__item:nth-child(2) {
-  background: #222 url("http://thespectrumoflife.com/images/uploads/Coral_Reef_Conservation_Initiative.jpg") repeat center top;
+  background: #222 url("http://thespectrumoflife.com/images/uploads/Coral_Reef_Conservation_Initiative.jpg") no-repeat center top;
 }
 .c-hero-flex__item:nth-child(3) {
   background: #222 url("../img/IMG_4265.JPG") repeat center center;
